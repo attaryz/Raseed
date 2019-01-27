@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/ic_send"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_send"
+        android:title="@string/send"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ic_recharge"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/ic_recharge"
+        android:title="@string/recharge"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ic_check"
+        android:enabled="true"
+        android:icon="@drawable/ic_check"
+        android:title="@string/check"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/ic_action_name"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_name"
+        android:title="@string/settings"
+        android:visible="true"
+        app:showAsAction="never" />
+</menu>
